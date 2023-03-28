@@ -1,0 +1,268 @@
+.page{
+  max-width: 1280px;
+  margin: auto;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.header{
+    max-height: 52px;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 48px 56px;
+
+}
+
+.header_logo{
+  width: 176px;
+  height: 52px;
+
+}
+
+
+.header_lang-link{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  margin-right: 18px;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.header_lang-link:last-of-type {
+  margin-right: 0;
+  text-decoration: none;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead{
+  max-width: 984px;
+  max-height: 1005px;
+  margin: 0;
+  padding: 0px 148px 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead_title{
+  max-width: 720px;
+  max-height: 200px;
+  margin: 0;
+  padding: 0px 132px 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.lead_subtitle{
+  max-width: 640px;
+  max-height: 72px;
+  margin: 0;
+  padding: 0px 172px 64px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
+.lead_image{
+  width: 984px;
+  height: 615px;
+  background-image: url(./img/kalegin-michail-179870-unsplash.jpg);
+}
+.lead_group{
+  margin: 128.61px 56.5px 261.8px 41.5px;
+  width: 937.09px;
+  height: 262.99px;
+
+}
+
+.lead_caption{
+  align-self: flex-start;
+  margin-top: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.intro{
+  max-width: 690px;
+  max-height: 429px;
+  padding: 0px 442px 92px 148px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.intro_title{
+  max-width: 690px;
+  max-height: 58px;
+  margin: 0;
+  padding-bottom: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #FFFFFF;
+
+}
+
+.intro_text{
+  max-width: 690px;
+  max-height: 208px;
+  margin: 0;
+  padding-bottom: 33px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+
+}
+
+.intro_list{
+  max-width: 690px;
+  max-height: 90px;
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.intro_number{
+  font-weight: 400;
+}
+
+.photo-grid{
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 16px;
+
+}
+
+.photo-grid_item{
+  width: 284px;
+  height: 213px;
+}
+
+
+
+
+
+.places{
+  max-width: 984px;
+  max-width: 3392px;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 148px;
+  row-gap: 80px;
+
+}
+
+.place{
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 152px 460px;
+  grid-gap: 48px 40px;
+}
+
+.place_title{
+  margin: 0;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+color: #FFFFFF;
+
+}
+
+.place_website{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  row-gap: 12px;
+}
+
+.place_url-heading{
+  margin: 0;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 2px;
+color: #AAAAAA;
+}
+
+.place_link{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+
+.place_image{
+
+}
+
+.place_paragraphs{
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+
+}
+
+.place_paragraph{
+  margin: 0;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+
