@@ -1,0 +1,30 @@
+.intro {
+  font-family: "Inter";
+  font-weight: 400;
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    width: 95%;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    width: 100%;
+    padding-bottom: 64px;
+  }
+}

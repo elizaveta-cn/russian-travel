@@ -1,0 +1,28 @@
+.places_place {
+  display: grid;
+  grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
+  grid-template-rows: minmax(min-content, max-content) minmax(auto, min-content);
+  grid-gap: 48px 40px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1024px) {
+  .places_place {
+    grid-gap: 48px 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .places_place {
+    grid-gap: 48px 28px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .places_place {
+    grid-gap: 48px 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places_place {
+    grid-gap: 32px;
+    grid-template-columns: minmax(auto, 320px);
+  }
+}

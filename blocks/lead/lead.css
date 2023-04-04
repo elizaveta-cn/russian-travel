@@ -1,0 +1,21 @@
+.lead {
+  font-family: "Inter";
+  font-weight: 400;
+  width: 100%;
+  margin: 0;
+  padding: 0px 0px 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 0px 24px 88px;
+    max-height: 862px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}
