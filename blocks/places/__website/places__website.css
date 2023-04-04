@@ -1,10 +1,11 @@
-.place__paragraphs {
+.places__website {
   display: flex;
   flex-direction: column;
-  row-gap: 26px;
+  justify-content: end;
+  row-gap: 12px;
 }
 @media screen and (max-width: 320px) {
-  .place__paragraphs {
+  .places__website {
     max-width: 288px;
     padding: 0 16px;
   }
