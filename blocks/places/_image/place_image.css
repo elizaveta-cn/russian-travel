@@ -4,7 +4,6 @@
 }
 @media screen and (max-width: 320px) {
   .place_image {
-    height: 100%;
     width: 320px;
     height: 320px;
     overflow: visible;
