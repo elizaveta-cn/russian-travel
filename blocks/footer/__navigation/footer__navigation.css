@@ -1,0 +1,14 @@
+.footer__navigation {
+  max-width: 100%;
+}
+@media screen and (max-width: 320px) {
+  .footer__navigation {
+    max-height: 100%;
+    width: 186px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 32px;
+  }
+}
