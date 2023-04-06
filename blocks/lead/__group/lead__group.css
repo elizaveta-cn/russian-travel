@@ -1,25 +1,32 @@
 .lead__group {
-  margin: 126px auto 250px;
+  margin: 105px auto 268px;
   max-width: 100%;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__group {
-    max-height: 580px;
-    margin: 120px 40px 240px;
+    max-height: 380px;
+    margin: 120px 20px 280px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__group {
     max-height: 480px;
-    margin: 100px 35px 200px;
+    margin: 80px 15px 220px;
   }
 }
-@media screen and (max-width: 520px) {
+@m
+edia screen and (max-width: 520px) {
   .lead__group {
     max-height: 290px;
     margin: 40px 15px 85px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead__group {
+    margin: 35px 5px 90px;
   }
 }

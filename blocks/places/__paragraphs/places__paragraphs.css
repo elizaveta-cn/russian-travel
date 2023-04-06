@@ -3,6 +3,7 @@
   flex-direction: column;
   row-gap: 26px;
 }
+
 @media screen and (max-width: 320px) {
   .places__paragraphs {
     max-width: 288px;

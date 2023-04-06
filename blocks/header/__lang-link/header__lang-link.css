@@ -7,10 +7,16 @@
   text-align: right;
   margin-right: 18px;
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
   margin-right: 0;
-  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+  }
 }

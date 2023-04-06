@@ -6,7 +6,8 @@
   line-height: 122%;
   color: #ffffff;
 }
+
 .places__link:hover {
-  color: rgba(213, 213, 213, 0.732);
+  color: rgba(213, 213, 213, 0.8);
   transition: 0.3s ease;
 }

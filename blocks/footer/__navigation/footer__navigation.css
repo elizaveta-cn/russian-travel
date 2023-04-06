@@ -1,6 +1,7 @@
 .footer__navigation {
   max-width: 100%;
 }
+
 @media screen and (max-width: 320px) {
   .footer__navigation {
     max-height: 100%;
