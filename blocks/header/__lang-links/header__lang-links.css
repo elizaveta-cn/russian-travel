@@ -1,12 +1,7 @@
 .header__lang-links {
-  max-height: 52px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-@media screen and (max-width: 320px) {
-  .header__lang-links {
-    max-height: 42px;
-  }
-}
+

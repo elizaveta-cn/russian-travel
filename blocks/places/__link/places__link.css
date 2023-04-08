@@ -1,5 +1,5 @@
 .places__link {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -8,6 +8,7 @@
 }
 
 .places__link:hover {
-  color: rgba(213, 213, 213, 0.8);
+  color: #FFFFFF;
+  opacity: 0.8;
   transition: 0.3s ease;
 }

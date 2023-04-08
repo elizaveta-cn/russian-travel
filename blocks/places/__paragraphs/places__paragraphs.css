@@ -1,4 +1,5 @@
 .places__paragraphs {
+  max-width: 456px;
   display: flex;
   flex-direction: column;
   row-gap: 26px;
