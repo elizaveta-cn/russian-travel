@@ -1,29 +1,12 @@
 .places__image {
-  max-width: 460px;
-  max-height: 460px;
-
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
-@media screen and (max-width: 1024px) {
-  .places__image {
+@media (max-width: 1024px) {
+  .places__image{
     max-width: 440px;
-    max-height: 440px;
-    overflow: visible;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .places__image {
-    max-width: 340px;
-    max-height: 340px;
-    overflow: visible;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places__image {
-    width: 320px;
-    height: 320px;
-    overflow: visible;
-  }
+ }
 }

@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   width: 100%;
-  min-height: 740px;
+  aspect-ratio: 1184/740;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -18,21 +18,11 @@
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 1024px;
-    height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-
-    height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     object-fit: contain;
-
-    height: 200px;
   }
 }

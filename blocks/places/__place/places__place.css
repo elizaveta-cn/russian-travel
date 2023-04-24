@@ -9,10 +9,11 @@
 @media screen and (max-width: 1024px) {
   .places__place {
     grid-gap: 48px 32px;
+    grid-template-columns: minmax(auto, 440px) minmax(auto, 484px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   .places__place {
     grid-gap: 48px 28px;
     grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
@@ -21,9 +22,10 @@
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
   .places__place {
     grid-gap: 48px 10px;
+    grid-template-columns: 1fr;
   }
 }
 
