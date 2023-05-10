@@ -6,7 +6,6 @@
   .footer__navigation {
     max-height: 100%;
     width: 186px;
-    height: 248px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
