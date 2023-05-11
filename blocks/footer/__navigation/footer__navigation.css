@@ -1,14 +1,19 @@
 .footer__navigation {
   max-width: 100%;
 }
-
+@media screen and (max-width: 660px) {
+  .footer__navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 100%;
+    row-gap: 10px;
+  }
+}
 @media screen and (max-width: 320px) {
   .footer__navigation {
     max-height: 100%;
     width: 186px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     row-gap: 32px;
   }
 }
